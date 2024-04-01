@@ -1,0 +1,18 @@
+#chat_button{
+    align-self: center;    
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #064472;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
+  }
+
+  #chat_button span{
+    padding: 0px;
+    margin: 0px;
+    background-color: #064472;
+    color: #ffffff;
+  }
