@@ -1,0 +1,27 @@
+.chat_input_msg {
+    padding: 10px;
+    border-top: 1 solid #CCC;
+    background-color: #ececec;
+    border-radius: 0 0 15px 15px;
+}
+
+.chat_input_msg_send {
+    padding-left: 10px;
+    font-size: 12;
+    font-weight: bold;
+    cursor: pointer;
+    color: #064472;
+}
+
+.chat_input_msg_send img {
+    color: #064472;
+}
+
+.chat_input_msg input {
+    width: inherit;
+    padding: 5px;
+    background: #75e9a1;
+    color: #064473;
+    font-weight: bold;
+    border-radius: 15px 15px 15px 15px;
+}

@@ -8,7 +8,7 @@
     "dist"
   ],
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {    
     "@reduxjs/toolkit": "^1.8.6",
     "@rollup/plugin-image": "^3.0.3",
     "@testing-library/jest-dom": "^5.17.0",

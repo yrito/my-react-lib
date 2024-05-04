@@ -1,0 +1,20 @@
+.chat_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #064472;
+    color: #FFF;
+    padding: 5px 10px 5px 10px;
+}
+
+.chat_header_title {
+    font-size: 10px;
+}
+
+.chat_close {
+    padding-left: 10px;
+    font-size: 12;
+    font-weight: bold;
+    cursor: pointer;
+    border-left: 1px solid;
+}

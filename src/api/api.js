@@ -136,6 +136,7 @@ class Api {
 
   async sendPromise(req, key) {
     return new Promise((resolve, reject) => {
+      console.log("[before socket.send]", req);
       this.socket.send(JSON.stringify(req));
       console.log("[socket.send]", req);
       this.responsesPromises[req.request.id] = {

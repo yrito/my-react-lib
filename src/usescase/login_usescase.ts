@@ -26,7 +26,17 @@ class LoginUsesCase {
 
     private async login() {
         try {
-            await api.userLogin({ ulogin: this.username, pass: this.pass });
+            const result = await api.userLogin({ ulogin: this.username, pass: this.pass });
+            console.dir(result);
+            if (result.token != null) {
+                localStorage.setItem("sessionId", result.token);
+
+                if (result.user != null) {
+                    localStorage.setItem("username", result.user.login);
+                    localStorage.setItem("userId", result.user._id);
+                }
+            }
+
             return null;
         }
         catch (ex) {
